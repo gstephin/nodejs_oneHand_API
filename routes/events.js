@@ -85,7 +85,7 @@ connection.connect(function(error){
 
     }
     else{
-        console.log('SUCCESS');
+        console.log('SUCCESS RUNNING ON PORT 2000');
 
     }
 });
