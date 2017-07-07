@@ -81,7 +81,7 @@ connection.connect(function(error){
 
     if(!!error){
 
-        console.log('ERROR');
+        console.log('ERRORRRRR'+error);
 
     }
     else{
