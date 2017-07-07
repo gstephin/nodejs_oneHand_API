@@ -6,7 +6,7 @@ var connection = mysql.createConnection({
 
     host :'localhost',
     user : 'root',
-    password: '',
+    password: 'root123',
     database: 'develop_db'
 });
 
@@ -176,7 +176,7 @@ connection.connect(function(error){
 
     if(!!error){
 
-        console.log('ERROR');
+        console.log('FAILED');
 
     }
     else{
