@@ -76,5 +76,17 @@ router.get('/insert',function (req, res, next) {
 });
 
 
+connection.connect(function(error){
+
+    if(!!error){
+
+        console.log('ERROR');
+
+    }
+    else{
+        console.log('SUCCESS');
+
+    }
+});
 
 module.exports = router;
