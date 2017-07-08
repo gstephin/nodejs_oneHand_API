@@ -77,16 +77,4 @@ router.get('/insert',function (req, res, next) {
 
 
 
-connection.connect(function(error){
-
-    if(!!error){
-
-        console.log('ERRORRRRR');
-
-    }
-    else{
-        console.log('SUCCESS RUNNING ON PORT 2000');
-
-    }
-});
 module.exports = router;
