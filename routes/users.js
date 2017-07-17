@@ -4,15 +4,10 @@ var mysql = require('mysql');
 var url  = require('url');
 var httpp = require('http');
 
-httpp.createServer(function (req, res) {
-    res.writeHead(200, {'Content-Type': 'text/plain'});
-    res.end('Hello World\n');
-}).listen(443, '139.59.16.235');
-console.log('Server running at http://localhost:443/');
 
 var connection = mysql.createConnection({
 
-    host :'localhost',
+    host :'139.59.16.235',
     user : 'root',
     password: 'root123',
     database: 'develop_db'
