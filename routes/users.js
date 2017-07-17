@@ -7,7 +7,7 @@ var httpp = require('http');
 httpp.createServer(function (req, res) {
     res.writeHead(200, {'Content-Type': 'text/plain'});
     res.end('Hello World\n');
-}).listen(443, 'http://139.59.16.235');
+}).listen(443, '139.59.16.235');
 console.log('Server running at http://localhost:443/');
 
 var connection = mysql.createConnection({
