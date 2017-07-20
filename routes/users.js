@@ -29,7 +29,7 @@ router.get('/insert',function (req, res, next) {
         user_type: querydata.user_Type,
         user_mail_id: querydata.user_mail_Id,
         user_gcm_reg_id: querydata.user_gcm_reg_Id,
-        add_date: querydata.add_Date
+        //add_date: querydata.add_Date
     };
     connection.query('INSERT INTO user_citizen SET ?', post, function (error, rows, fields) {
 
